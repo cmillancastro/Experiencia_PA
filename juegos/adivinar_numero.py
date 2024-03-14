@@ -6,6 +6,6 @@ def adivinar_numero():
         print("Has acertado!!!")
     elif numero != intento:
         strnumero = str(numero)
-        string = "No has acertado :(, el número era " + str(numero)
+        string = "No has acertado :(, el número era " + strnumero
         print(string)
     pass
