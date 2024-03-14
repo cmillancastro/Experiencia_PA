@@ -1,7 +1,7 @@
 def adivinar_par_o_impar():
     from random import randint
     paridad = input("¿El numero es par o impar?: ")
-    paridad = lower.paridad()
+    paridad = paridad.lower()
     numeroaleatorio = randint(0, 100)
     if numeroaleatorio%2 == 0:
         if paridad == "par":
