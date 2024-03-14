@@ -10,7 +10,7 @@ def cachipun():
     elif azar == 3:
         computadora = "tijera"
     if jugador == computadora:
-        print("Han empatado! Intentálo de nuevo...")
+        print("Han empatado! Inténtalo de nuevo...")
         return cachipun()
     elif jugador != computadora:
         if jugador == "tijera":
