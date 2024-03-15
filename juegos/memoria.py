@@ -7,6 +7,8 @@ def memoria():
         numero += str(digito)
     string = "Intenta recordar este número: " + numero
     print(string)
+    for i in range(30):
+        print(".")
     intento = input("¿Cuál era el número?: ")
     if intento == numero:
         print("Has acertado !!")
