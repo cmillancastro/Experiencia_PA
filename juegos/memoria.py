@@ -14,3 +14,4 @@ def memoria():
         print("No lo has logrado :(, el número era " + numero)
 
     pass
+memoria()
